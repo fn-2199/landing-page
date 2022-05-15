@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.img {
+    border: 3px solid #3882F6;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.members,
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitle,
+.about,
+.testimonial,
+.author {
+    color: black;
+}
